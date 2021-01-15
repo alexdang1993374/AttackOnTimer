@@ -4,6 +4,16 @@ function goToAnime() {
   );
 }
 
+let audio;
+
+function play(sound) {
+  if (audio) {
+    audio.pause();
+  }
+  audio = new Audio("./eren.wav");
+  audio.play();
+}
+
 function updateClock() {
   Day = new Date().getDay();
   if (Day == 1) {
