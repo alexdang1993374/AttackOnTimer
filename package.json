@@ -1,0 +1,8 @@
+{
+  "name": "AttackOnTimer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alexdang1993374/AttackOnTimer.git",
+  "author": "<alexdang1993374@gmail.com>",
+  "license": "MIT"
+}
