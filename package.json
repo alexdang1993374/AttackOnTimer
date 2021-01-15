@@ -1,8 +1,17 @@
 {
   "name": "AttackOnTimer",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node server.ts"
+  },
   "main": "index.js",
   "repository": "https://github.com/alexdang1993374/AttackOnTimer.git",
   "author": "<alexdang1993374@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.21"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
