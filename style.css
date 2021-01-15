@@ -14,6 +14,7 @@ body {
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
+  user-select: none;
 }
 
 .fire {
@@ -29,6 +30,7 @@ body {
   overflow: hidden;
   text-align: center;
   vertical-align: middle;
+  
 }
 .fire:before {
   content: "";
@@ -51,6 +53,7 @@ body {
   text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange,
     4px -5px 6px yellow, -4px -10px 10px yellow, 0 -10px 30px yellow;
   animation: 2s Blazing infinite alternate linear;
+  user-select: none;
 }
 
 @keyframes Blazing {
@@ -77,3 +80,20 @@ body {
       0 0 5px yellow, -2px -5px 5px yellow, 4px -10px 10px yellow;
   }
 }
+
+h2 {
+	
+  margin: 0;
+
+  color: rgb(255, 0, 0);
+  font-size: 100px;
+  line-height: 50px;
+  min-width: 50px;
+  outline: none;
+  text-align: center;
+  background-color:rgb(255, 251, 0, 0.5);
+  line-height:2;
+  cursor: pointer;
+  user-select: none;
+}
+
